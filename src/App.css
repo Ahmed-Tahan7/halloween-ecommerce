@@ -3,3 +3,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.home{
+  padding: 10px;
+}
+
+#basic-nav-dropdown{
+  margin-left: 15px;
+}
+
+.term-page{
+  text-align: center;
+}
+
+.term-nav{
+    background-size: cover;
+    background-image:
+    linear-gradient(
+      rgba(130, 48, 180, 0.9),
+      rgba(130, 48, 180, 0.9)) , url(//halloween-template.myshopify.com/cdn/shop/files/breadcrumb.jpg?v=1694515963&width=3840);
+}
+
+.term-nav .nav-in{
+  color: white;
+  padding: 25px;
+}
+
+.term-content{
+  margin-top: 40px;
+}
+
+.shopify-policy-body{
+  display: inline-block;
+  justify-content: left;
+  width: 500px;
+  text-align: left;
+  margin-top: 10px;
+  color: #353535
+}
+
+.shopify-policy-title{
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;  color: #606060;
+}
