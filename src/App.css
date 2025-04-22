@@ -9,46 +9,74 @@
   width: auto;
 }
 
-.home{
+.home {
   padding: 10px;
 }
 
-#basic-nav-dropdown{
+#basic-nav-dropdown {
   margin-left: 15px;
 }
 
-.term-page{
+.term-page {
   text-align: center;
 }
 
-.term-nav{
-    background-size: cover;
-    background-image:
-    linear-gradient(
+.term-nav {
+  background-size: cover;
+  background-image: linear-gradient(
       rgba(130, 48, 180, 0.9),
-      rgba(130, 48, 180, 0.9)) , url(//halloween-template.myshopify.com/cdn/shop/files/breadcrumb.jpg?v=1694515963&width=3840);
+      rgba(130, 48, 180, 0.9)
+    ),
+    url(//halloween-template.myshopify.com/cdn/shop/files/breadcrumb.jpg?v=1694515963&width=3840);
 }
 
-.term-nav .nav-in{
+.term-nav .nav-in {
   color: white;
   padding: 25px;
 }
 
-.term-content{
+.term-content {
   margin-top: 40px;
 }
 
-.shopify-policy-body{
+.shopify-policy-body {
   display: inline-block;
   justify-content: left;
   width: 500px;
   text-align: left;
   margin-top: 10px;
-  color: #353535
+  color: #353535;
 }
 
-.shopify-policy-title{
+.shopify-policy-title {
   font-family: "Creepster", system-ui;
   font-weight: 400;
-  font-style: normal;  color: #606060;
+  font-style: normal;
+  color: #606060;
+}
+
+.shopify-policy-body strong {
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .shopify-policy-title h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+.term-nav .m-auto {
+  margin: 0; 
+}
+
+@media (max-width: 576px) {
+  .shopify-policy-title h1 {
+    font-size: 1.75rem;
+  }
+
+  .shopify-policy-body {
+    font-size: 0.9rem;
+  }
 }
